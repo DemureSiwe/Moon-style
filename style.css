@@ -11,3 +11,11 @@ margin: 0;
 text-align: center;
 }
 
+.moon{
+    background-color: #000;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+}
+
