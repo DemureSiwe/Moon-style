@@ -29,4 +29,19 @@ text-align: center;
     animation: 9.2s animation linear infinite alternate;
 }
 
+@keyframes animation {
+    0% {
+        transform:translate(25px) scale(0.9);
+        box-shadow: none;
+    }
 
+    50% {
+        transform: translate(0.0) scale(1.03);
+        box-shadow: 0 0 10px #fff, 0 0 80px 2px #fff;
+    }
+
+    100% {
+        transform: translate(-25px) scale(0.9);
+        box-shadow: none;
+    }
+}
