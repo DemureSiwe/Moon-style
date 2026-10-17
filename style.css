@@ -19,3 +19,14 @@ text-align: center;
     position: relative;
 }
 
+.moon::before{
+    content: "";
+    background-color: #e61212;
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    z-index: -1;
+    animation: 9.2s animation linear infinite alternate;
+}
+
+
